@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/momo/Desktop/blog-laravel/source/_assets/js/main.js */"./source/_assets/js/main.js");
-module.exports = __webpack_require__(/*! /home/momo/Desktop/blog-laravel/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
+__webpack_require__(/*! /home/momo/Desktop/az-trip.com/source/_assets/js/main.js */"./source/_assets/js/main.js");
+module.exports = __webpack_require__(/*! /home/momo/Desktop/az-trip.com/source/_assets/sass/main.scss */"./source/_assets/sass/main.scss");
 
 
 /***/ })
