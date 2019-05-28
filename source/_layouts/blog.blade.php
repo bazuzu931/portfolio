@@ -27,7 +27,7 @@
         @include('_partials.nav')
         <div class="markdown-body">
           <h1>{{ $page->title }}</h1>
-          <h2>by {{ $page->author }}</h2>
+          {{-- <h2>by {{ $page->author }}</h2> --}}
           @yield('body')
         </div>
     </body>
