@@ -32,16 +32,6 @@ query Posts {
       }
     }
   }
-  redditPosts: allRedditPost {
-    edges {
-      node {
-        id
-        title
-        path
-        thumbnail
-      }
-    }
-  }
 }
 </page-query>
 
