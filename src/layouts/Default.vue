@@ -1,5 +1,6 @@
 <template>
-  <div class="layout">
+  <div class="font-sans text-gray-800 leading-normal">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore fugiat nulla nesciunt molestias hic iure reprehenderit assumenda dolorem quos enim.
     <header class="header">
       <strong>
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
@@ -21,30 +22,4 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>
+<style src="../main.css" />

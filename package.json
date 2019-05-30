@@ -11,5 +11,8 @@
     "@gridsome/transformer-remark": "^0.2.1",
     "axios": "^0.18.0",
     "gridsome": "^0.6.3"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^2.2.6"
   }
 }
