@@ -6,8 +6,8 @@
 
     <div class="container mx-auto  py-16">
 
-        <ul class="text-2xl font-bold  w-3/5">
-          <li class="hover:text-gray-600 mb-3 sm:mb-6" v-for="post in $page.posts.edges" :key="post.id">
+        <ul class=" font-bold  w-3/5">
+          <li class="hover:text-gray-600  text-lg sm:text-2xl  mb-3 sm:mb-6" v-for="post in $page.posts.edges" :key="post.id">
             <g-link :to="post.node.path">
               {{ post.node.title }}
             </g-link>
