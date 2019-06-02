@@ -1,6 +1,6 @@
 <template>
   <div class="layout font-sans  text-gray-800 leading-normal">
-    <header class="header">
+    <header class="container  flex  flex-row-reverse  py-8">
       <!-- <strong>
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
       </strong> -->
