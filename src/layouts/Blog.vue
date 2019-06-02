@@ -1,17 +1,31 @@
 <template>
-  <div class="layout">
+  <div class="layout font-sans  text-gray-800 leading-normal">
     <header class="header">
-      <strong>
+      <!-- <strong>
         <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
+      </strong> -->
+      <!-- <nav class="nav">
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/about">About</g-link>
-      </nav>
+      </nav> -->
+      <ul class="uppercase tracking-wide  flex items-center">
+        <li class="mr-8"><a href="/" class="text-gray-800 hover:text-gray-600 text-xl">Home</a></li>
+        <!-- <li class="mr-8"><a href="/about" class="text-gray-800 hover:text-gray-600">About</a></li> -->
+      </ul>
+
     </header>
-    <slot/>
+    <div class="page-title text-3xl capitalize">{{ $page.post.title }}</div>
+    <slot />
   </div>
 </template>
+
+<page-query>
+  query {
+    post {
+      title
+  }
+}
+</page-query>
 
 <static-query>
 query {
@@ -52,6 +66,7 @@ body {
 }
 
 .markdown-body {
+  font-size: 1.3rem;
   box-sizing: border-box;
   min-width: 200px;
   max-width: 980px;
