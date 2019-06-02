@@ -9,13 +9,15 @@
         <g-link class="nav__link" to="/about">About</g-link>
       </nav> -->
       <ul class="uppercase tracking-wide  flex items-center">
-        <li class="mr-8"><a href="/" class="text-gray-800 hover:text-gray-600 text-xl">Home</a></li>
+        <li class=""><a href="/" class="text-gray-800 hover:text-gray-600 text-base">На главную</a></li>
         <!-- <li class="mr-8"><a href="/about" class="text-gray-800 hover:text-gray-600">About</a></li> -->
       </ul>
 
     </header>
-    <div class="page-title text-3xl capitalize">{{ $page.post.title }}</div>
-    <slot />
+    <div class="post-body pt-6">
+      <div class="page-title text-2xl sm:text-3xl ">{{ $page.post.title }}</div>
+      <slot />
+    </div>
   </div>
 </template>
 
@@ -76,6 +78,7 @@ body {
 
 @media (max-width: 767px) {
   .markdown-body {
+    font-size: 1rem;
     padding: 15px;
   }
 }

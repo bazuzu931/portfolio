@@ -1,7 +1,8 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+     <div class="container mx-auto p-8 sm:p-48">
+     	<p class="">Привет, меня зовут Zazu, и я украл панду из зоопарка. У нас вообще-то клуб анонимных алкоголиков. А вы думаете, я это трезвым сделал? меня зовут Zazu, и я украл панду из зоопарка. У нас вообще-то клуб анонимных алкоголиков. А вы думаете, я это трезвым сделал?</p>
+     </div>
   </Layout>
 </template>
 
