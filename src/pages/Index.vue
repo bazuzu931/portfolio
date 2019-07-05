@@ -44,7 +44,7 @@ query Posts {
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Главная'
   }
 }
 </script>
